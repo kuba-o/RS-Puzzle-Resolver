@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="04d1c32c-5a03-4b58-b43d-5bbcb4ba9357" name="Default Changelist" comment="" />
+    <list default="true" id="04d1c32c-5a03-4b58-b43d-5bbcb4ba9357" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RS-Puzzle-Resolver/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RS-Puzzle-Resolver/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RS-Puzzle-Resolver/contours/FindContours$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RS-Puzzle-Resolver/contours/FindContours$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RS-Puzzle-Resolver/contours/FindContours.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RS-Puzzle-Resolver/contours/FindContours.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DisplayImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/contours/DisplayImage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contours/FindContours.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/contours/FindContours.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +24,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1TwXKYUa6TDVA3XSSljIuVSPi5W" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -75,17 +89,28 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Test.java</url>
-          <line>14</line>
+          <line>15</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Test.java</url>
-          <line>10</line>
+          <line>11</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>

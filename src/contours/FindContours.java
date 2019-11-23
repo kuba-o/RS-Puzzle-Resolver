@@ -33,6 +33,7 @@ class FindContours {
     private static final int MAX_THRESHOLD = 255;
     private int threshold = 100;
     private Random rng = new Random(12345);
+
     public FindContours(String[] args) {
         String filename = args.length > 0 ? args[0] : "../data/HappyFish.jpg";
         Mat src = Imgcodecs.imread("src/puzzle.jpg");
@@ -41,6 +42,7 @@ class FindContours {
             System.exit(0);
         }
         Imgproc.cvtColor(src, srcGray, Imgproc.COLOR_BGR2GRAY);
+        DisplayImage.displayImage(srcGray, "puzzle image");
         Imgproc.blur(srcGray, srcGray, new Size(3, 3));
         // Create and set up the window.
         frame = new JFrame("Finding contours in your image demo");

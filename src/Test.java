@@ -1,3 +1,4 @@
+import contours.DisplayImage;
 import org.opencv.core.Core;
 import org.opencv.core.Mat;
 import org.opencv.imgcodecs.Imgcodecs;
@@ -17,8 +18,6 @@ public class Test {
 
         Mat puzzleImage = Imgcodecs.imread(Constants.PUZZLE_PATH);
         DisplayImage.displayImage(puzzleImage, "puzzle image");
-
-
 
         System.out.println("Image Loaded");
     }
