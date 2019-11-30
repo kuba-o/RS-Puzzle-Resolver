@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04d1c32c-5a03-4b58-b43d-5bbcb4ba9357" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/RS-Puzzle-Resolver/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RS-Puzzle-Resolver/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/RS-Puzzle-Resolver/contours/FindContours$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RS-Puzzle-Resolver/contours/FindContours$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/RS-Puzzle-Resolver/contours/FindContours.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RS-Puzzle-Resolver/contours/FindContours.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DisplayImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/contours/DisplayImage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contours/FindContours.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/contours/FindContours.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RS-Puzzle-Resolver/META-INF/RS-Puzzle-Resolver.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RS-Puzzle-Resolver/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RS-Puzzle-Resolver/contours/DisplayImage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RS-Puzzle-Resolver/contours/DisplayImage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contours/DisplayImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/contours/DisplayImage.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,11 +31,21 @@
   <component name="ProjectId" id="1TwXKYUa6TDVA3XSSljIuVSPi5W" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="LombokPluginEnabledInProject" value="true" />
+    <property name="LombokPluginIS_ANNOTATION_PROCESSING_CHECK_Enabled" value="true" />
+    <property name="LombokPluginIS_BUILDER_Enabled" value="true" />
+    <property name="LombokPluginIS_CONSTRUCTOR_Enabled" value="true" />
+    <property name="LombokPluginIS_DELEGATE_Enabled" value="true" />
+    <property name="LombokPluginIS_LOG_Enabled" value="true" />
+    <property name="LombokPluginIS_LOMBOK_VERSION_CHECK_Enabled" value="false" />
+    <property name="LombokPluginIS_MISSING_LOMBOK_CHECK_Enabled" value="true" />
+    <property name="LombokPluginIS_VAL_Enabled" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -48,7 +59,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FindContoursDemo">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="FindContoursDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="contours.FindContoursDemo" />
       <module name="RS-Puzzle-Resolver" />
@@ -62,6 +73,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="RS-Puzzle-Resolver" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Test" />
       <module name="RS-Puzzle-Resolver" />
@@ -71,8 +89,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FindContoursDemo" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Test" />
+        <item itemvalue="Application.FindContoursDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -94,7 +113,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -104,14 +125,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Test.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Test.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="5" />
+          <url>file://$PROJECT_DIR$/src/contours/FindContours.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
